@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Каталог - Steam Key Store </title>
+    <link rel="stylesheet" href="styles/catalog.css">
+</head>
+<body>
+
+<!-- навигационная панель -->
+<nav class="navbar">
+    <div class="navbar-container">
+
+        <div class="nav-left">
+            <div class="menu-wrapper">
+                <button class="menu-btn" id="menuBtn">☰</button>
+
+                <div class="dropdown-menu" id="dropdownMenu">
+                    <a href="index.html">Главная страница</a>
+                    <a href="catalog.html">Все игры</a>
+                    <a href="catalog.html">Бестселлеры</a>
+                    <a href="catalog.html">Игры со скидками</a>
+                    <a href="catalog.html">Новинки</a>
+                </div>
+            </div>
+
+            <div class="logo">
+                <img src="images/logo-white.png" alt="">
+            </div>
+        </div>
+
+        <div class="nav-right">
+                <span><a href="/cart.html" class="main-cart">Корзина</a></span>
+                <img src="images/basket.png" alt="Корзина">
+            
+
+            
+                <span><a href="#" class="main-cart">Профиль</a></span>
+                <img src="images/profile.png" alt="Профиль">
+        </div>
+
+    </div>
+</nav>
+
+
+<div class="catalog-container">
+    <div class="interior-container">
+        <div class="top-categories">
+        <button data-category="bestsellers" class="active">Бестселлеры</button>
+        <button data-category="discounts">Игры со скидками</button>
+        <button data-category="new">Новинки</button>
+        <button data-category="all">Все игры</button>
+        </div>
+
+        <div class="catalog">
+
+            <aside class="filters">
+                <h3>Жанры</h3>
+                <label><input type="checkbox" value="Шутер"> Шутер</label>
+                <label><input type="checkbox" value="Хоррор"> Хоррор</label>
+                <label><input type="checkbox" value="Платформер"> Платформер</label>
+                <label><input type="checkbox" value="Симулятор"> Симулятор</label>
+                <label><input type="checkbox" value="Инди"> Инди</label>
+                <label><input type="checkbox" value="Головоломка"> Головоломка</label>
+                <label><input type="checkbox" value="Стратегия"> Стратегия</label>
+            </aside>
+
+            <div class="games">
+                <div id="cards"></div>
+            </div>
+
+            
+        </div>
+
+        <div class="pagination">
+            <button id="prev">Предыдущая страница</button>
+            <button id="next">Следующая страница</button>
+        </div>
+    </div>
+</div>
+
+
+<br><br><br>
+
+<!-- футер -->
+<footer>
+    <div class="footer-container">
+        <div class="left-footer">
+            <img src="images/logo-blue.png" alt="лого">
+            <p>2025</p>
+        </div>
+
+        <div class="right-footer">
+            <p>Поддержка:</p>
+            <h3>8 911 000 00 00</h3>
+            <br>
+            <p>Мы есть в:</p>
+            <h3>Telegram</h3>
+            <h3>VK</h3>
+        </div>
+    </div>
+</footer>
+
+
+<script src="scripts/dropdown.js"></script>
+<script src="scripts/filter.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Корзина - Steam Key Store </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/cart.css">
+</head>
+<body>
+
+    <!-- навигационная панель -->
+    <nav class="navbar1">
+        <div class="navbar-container1">
+
+            <div class="nav-left">
+                <div class="menu-wrapper">
+                    <button class="menu-btn" id="menuBtn">☰</button>
+
+                    <div class="dropdown-menu" id="dropdownMenu">
+                        <a href="/index.html">Главная страница</a>
+                        <a href="/catalog.html">Все игры</a>
+                        <a href="/catalog.html">Бестселлеры</a>
+                        <a href="/catalog.html">Игры со скидками</a>
+                        <a href="/catalog.html">Новинки</a>
+                    </div>
+                </div>
+
+                <div class="logo">
+                    <img src="/images/logo-white.png" alt="">
+                </div>
+            </div>
+
+            <div class="nav-right">
+                <span><a href="/cart.html" class="main-cart">Корзина</a></span>
+                <img src="images/basket.png" alt="Корзина">
+            
+                <span><a href="#" class="main-cart">Профиль</a></span>
+                <img src="images/profile.png" alt="Профиль">
+            </div>
+
+        </div>
+    </nav>
+
+
+
+    <div class="container py-4">
+
+    <div class="row justify-content-between">
+
+        <div class="col-lg-7 col-12 mb-4 left-width">
+
+            <div class="d-flex align-items-start gap-3">
+
+                <div class="product-card d-flex align-items-center w-100">
+                    <img src="images/topgames1.png" alt="Baldur’s Gate" class="img-fluid">
+
+                    <div class="product-info flex-grow-1">
+                        <h2>Baldur’s Gate</h2>
+                    </div>
+
+                    <div class="price">
+                        1999 р.
+                    </div>
+                </div>
+
+                <div class="product-check mt-4">
+                    <input type="checkbox" id="selectProduct" class="form-check-input">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-lg-4 col-12">
+
+            <div class="payment-top p-3 rounded mb-3">
+                <span>К оплате:</span>
+                <div class="total fs-4">1999 р.</div>
+            </div>
+
+            <div class="payment-box p-4 rounded">
+
+                <input type="email" placeholder="Email" class="form-control mb-3 text-center">
+
+                <div class="payments-section d-flex gap-3">
+
+                    <!-- СПОСОБЫ ОПЛАТЫ -->
+                    <div class="methods d-flex flex-column gap-2">
+
+                        <label class="method text-center">
+                            <input type="radio" name="payment" class="d-none" checked>
+                            <img src="images/master-card.png" class="img-fluid" alt="master-card">
+                        </label>
+
+                        <label class="method text-center">
+                            <input type="radio" name="payment" class="d-none">
+                            <img src="images/visa.png" class="img-fluid" alt="visa">
+                        </label>
+
+                        <label class="method text-center">
+                            <input type="radio" name="payment" class="d-none">
+                            <img src="images/sber.png" class="img-fluid" alt="sber">
+                        </label>
+
+                        <label class="method text-center">
+                            <input type="radio" name="payment" class="d-none">
+                            <img src="images/vtb.png" class="img-fluid" alt="vtb">
+                        </label>
+
+                    </div>
+
+                    <!-- ПОЛЯ -->
+                    <div class="inputs-section flex-grow-1 d-flex flex-column justify-content-between">
+
+                        <div>
+                            <input type="text" placeholder="0000 0000 0000 0000"
+                                   class="form-control mb-3 text-center">
+
+                            <div class="row g-2">
+                                <div class="col">
+                                    <input type="text" placeholder="00/00"
+                                           class="form-control text-center">
+                                </div>
+                                <div class="col">
+                                    <input type="text" placeholder="000"
+                                           class="form-control text-center">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-check mt-3">
+                            <input type="checkbox" id="agree" class="form-check-input">
+                            <label for="agree" class="form-check-label small text-muted">
+                                Согласие с условиями
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn buy-btn mt-4 w-100">
+                Купить
+            </button>
+
+        </div>
+    </div>
+</div>
+
+
+    <h3 class="text-center back-btn mb-5">
+        <a href="catalog.html" class="text-dark">
+            Вернуться в магазин
+        </a>
+    </h3>
+
+
+    <!-- футер -->
+    <footer>
+        <div class="footer-container">
+            <div class="left-footer">
+                <img src="/images/logo-blue.png" alt="logo">
+                <p>2025</p>
+            </div>
+
+            <div class="right-footer">
+                <p>Поддержка:</p>
+                <h3>8 911 000 00 00</h3>
+                <br>
+                <p>Мы есть в:</p>
+                <h3>Telegram</h3>
+                <h3>VK</h3>
+            </div>
+        </div>
+    </footer>
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="scripts/slider.js"></script>
+<script src="scripts/dropdown.js"></script>
+    
+</body>
+</html>

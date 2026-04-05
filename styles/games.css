@@ -1,0 +1,404 @@
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(fonts/Gilroy-Medium.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy-Bold';
+    background: linear-gradient(
+        0deg,
+        #DCE3F1 0%,
+        #ffffff 100%
+    );
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+
+.navbar {
+    width: 100%;
+    background: linear-gradient(
+        270deg,
+        #000823 0%,
+        #00071B 50%,
+        #000310 100%
+    );
+}
+
+
+.navbar-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 6px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu-btn {
+    background: #fff;
+    border: none;
+    color: #000;
+    font-size: 30px;
+    cursor: pointer;
+    line-height: 36px;
+    font-weight: bolder;
+}
+
+.menu-btn:hover{
+    background: #6183CF;
+}
+
+
+.menu-wrapper {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    background: linear-gradient(
+        0deg,
+        #DBE0F3 0%,
+        #FAFBFD 100%
+    );
+    border-radius: 10px;
+    overflow: hidden;
+    transform: scale(0);
+    transform-origin: top left;
+    transition: transform 0.3s ease;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    z-index: 100;
+}
+
+.dropdown-menu.active {
+    transform: scale(1);
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 12px 20px;
+    color: #0C1C56;
+    font-family: 'Gilroy-Bold';
+    font-weight: bold;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.dropdown-menu a:hover {
+    text-decoration: underline;
+    color: #425682;
+}
+
+
+.logo img{
+    width: 8vw;
+}
+
+
+.nav-right {
+    display: flex;
+    gap: 15px;
+}
+
+.icon-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.icon-btn:hover{
+    color: #6183CF;
+    text-decoration: underline;
+}
+
+.icon-btn img {
+    width: 24px;
+    height: 24px;
+}
+
+.main-cart{
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-cart:hover{
+    color: #6183CF;
+    text-decoration: none;
+}
+
+footer{
+    background: linear-gradient(
+        270deg,
+        #000823 0%,
+        #00071B 50%,
+        #000310 100%
+    );
+    color: #2B4272;
+    
+}
+
+.footer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 27vh;
+}
+
+.left-footer p{
+    margin: 0;
+    padding: 0;
+    font-family: Gilroy-Medium;
+}
+
+.right-footer{
+    text-align: right;
+}
+
+.right-footer p{
+    margin: 0;
+    padding: 0;
+    font-family: Gilroy-Medium;
+    font-size: 0.7vw;
+}
+
+.right-footer h3{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+.sub-container{
+    padding: 4vw 3vw;
+}
+
+.game-title{
+    font-size: 2vw;
+    margin-bottom: 2vw;
+}
+
+.product {
+    display: flex;
+    gap: 40px;
+}
+
+.product-left {
+    width: 45%;
+}
+
+.slider-container,
+.slider-track,
+.thumb {
+     user-select: none;
+}
+
+.thumb {
+    -webkit-user-drag: none;
+    pointer-events: auto;
+}
+
+.main-image img {
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.slider-container {
+    overflow: hidden;
+    margin-top: 15px;
+    cursor: grab;
+}
+
+.slider-track {
+    display: flex;
+    gap: 15px;
+    transition: 0.2s;
+}
+
+.thumb {
+    width: 48%;
+    border-radius: 15px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.thumb.active {
+    opacity: 1;
+}
+
+.product-center {
+     width: 37%;
+}
+
+.product-center h1,
+.product-center h2 {
+    color: #364F87;
+    font-size: 2vw;
+    margin: 0;
+}
+
+.product-center h2{
+    margin-top: 0.6vw;
+}
+
+.product-center p {
+    line-height: 1.2;
+    font-family: Gilroy-Medium;
+    font-size: 1vw;
+    margin-top: 0.3vw;
+}
+
+.product-right {
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.price-box {
+    background: #E3E9F5;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 1.3vw;
+    text-align: center;
+    font-family: Gilroy-Medium;
+}
+
+.add-btn {
+    background: #A2BEF6;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 15px;
+    font-size: 1vw;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: Gilroy-Bold;
+    transition: 0.3s;
+}
+
+.add-btn:hover{
+    background-color: #CDDDFF;
+}
+
+.add-btn.added {
+    background-color: #CDDDFF;
+}
+
+.add-btn.added:hover {
+    background-color: #A2BEF6;
+}
+
+.cart-btn {
+    background: #9AFA46;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 15px;
+    font-size: 0.9vw;
+    cursor: pointer;
+    font-family: Gilroy-Bold;
+    transition: 0.3s;
+}
+
+.cart-btn a{
+    color: #000;
+    text-decoration: none;
+}
+
+.cart-btn:hover{
+    background: #C0FF89;
+}
+
+.reviews h2 {
+    font-size: 2.4vw;
+    margin-bottom: 40px;
+}
+
+.review-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+
+.review-content {
+    max-width: 500px;
+}
+
+.review-top {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.3vw;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-size: 0.8vw;
+    color: #000;
+    font-family: Gilroy-Medium;
+}
+
+.stars {
+    color: #000;
+    font-size: 1.2vw;
+}
+
+.review-text {
+    background: #E3E9F5;
+    padding: 12px 18px;
+    border-radius: 0 20px 20px 20px;
+    display: inline-block;
+    font-size: 14px;
+    font-family: Gilroy-Medium;
+}
