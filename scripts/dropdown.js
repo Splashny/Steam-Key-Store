@@ -1,6 +1,8 @@
 const menuBtn = document.getElementById("menuBtn");
 const dropdownMenu = document.getElementById("dropdownMenu");
 
+console.log(menuBtn, dropdownMenu);
+
 menuBtn.addEventListener("click", () => {
       console.log("КНОПКА НАЖАТА");
     dropdownMenu.classList.toggle("active");
