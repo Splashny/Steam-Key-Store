@@ -1,15 +1,17 @@
-const menuBtn = document.getElementById("menuBtn");
-const dropdownMenu = document.getElementById("dropdownMenu");
+document.addEventListener("DOMContentLoaded", () => {
+    const menuBtn = document.getElementById("menuBtn");
+    const dropdownMenu = document.getElementById("dropdownMenu");
 
-console.log(menuBtn, dropdownMenu);
+    console.log("JS работает");
 
-menuBtn.addEventListener("click", () => {
-      console.log("КНОПКА НАЖАТА");
-    dropdownMenu.classList.toggle("active");
-});
+    menuBtn.addEventListener("click", () => {
+        console.log("КНОПКА НАЖАТА");
+        dropdownMenu.classList.toggle("active");
+    });
 
-document.addEventListener("click", (e) => {
-    if (!e.target.closest(".menu-wrapper")) {
-        dropdownMenu.classList.remove("active");
-    }
+    document.addEventListener("click", (e) => {
+        if (!e.target.closest(".menu-wrapper")) {
+            dropdownMenu.classList.remove("active");
+        }
+    });
 });
