@@ -72,7 +72,7 @@ body {
     position: relative;
 }
 
-.dropdown-menu {
+.my-dropdown-menu {
     position: absolute;
     top: 45px;
     left: 0;
@@ -90,13 +90,13 @@ body {
     z-index: 100;
 }
 
-.dropdown-menu.active {
+.my-dropdown-menu.active {
     transform: scale(1);
     padding-top: 12px;
     padding-bottom: 12px;
 }
 
-.dropdown-menu a {
+.my-dropdown-menu a {
     display: block;
     padding: 12px 20px;
     color: #0C1C56;
@@ -106,7 +106,7 @@ body {
     white-space: nowrap;
 }
 
-.dropdown-menu a:hover {
+.my-dropdown-menu a:hover {
     text-decoration: underline;
     color: #425682;
 }
