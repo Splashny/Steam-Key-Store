@@ -155,7 +155,7 @@ body {
     position: relative;
     height: 54vh;
 
-    background-image: url("/images/main-banner.png");
+    background-image: url("images/main-banner.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
