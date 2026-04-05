@@ -6,7 +6,7 @@ const games = [
     category:"bestsellers", 
     price:1999,
     description:"Соберите свой отряд и возвращайтесь в Забытые королевства в сказке о братстве и предательстве . . .",
-    image:"../images/topgames1.png"
+    image:"images/topgames1.png"
   },
   { 
     title:"Elden Ring", 
@@ -15,7 +15,7 @@ const games = [
     category:"bestsellers", 
     price:2499,
     description:"Как и в играх серии Dark Souls, Elden Ring представляет собой фэнтезийную игру в сеттинге западного средневековья . . . ",
-    image:"../images/topgames2.png"
+    image:"images/topgames2.png"
   },
   { 
     title:"Scorn", 
@@ -24,7 +24,7 @@ const games = [
     category:"discounts", 
     price:899,
     description:"Игрок управляет главным героем с видом от первого лица; герой обнаруживает себя в одиночестве в . . .",
-    image:"../images/topgames3.png"
+    image:"images/topgames3.png"
   },
   { 
     title:"R.E.P.O.", 
@@ -33,7 +33,7 @@ const games = [
     category:"discounts", 
     price:499,
     description:"Игровой процесс R.E.P.O. схож с Lethal Company. В игре могут участвовать до шести игроков, главная задача которых . . .",
-    image:"../images/topgames4.png"
+    image:"images/topgames4.png"
   },
   { 
     title:"Don't Starve Together", 
@@ -42,7 +42,7 @@ const games = [
     category:"discounts", 
     price:399,
     description:"Идея игры заключается в выживании посреди . . .",
-    image:"../images/topgames5.png"
+    image:"images/topgames5.png"
   },
   { 
     title:"The Outlast Trials",
@@ -51,7 +51,7 @@ const games = [
     category:"bestsellers", 
     price:1300,
     description:"Во времена Холодной войны по всей Америке были открыты благотворительные центры корпорации Мёркофф для . . .",
-    image:"../images/outlast.png"
+    image:"images/outlast.png"
   },
   { 
     title:"Lethal Company", 
@@ -60,7 +60,7 @@ const games = [
     category:"discounts", 
     price:450,
     description:"Вы являетесь сотрудником Компании по контракту. Ваша задача — собирать металлолом с заброшенных . . .",
-    image:"../images/topgames7.png"
+    image:"images/topgames7.png"
   },
   { 
     title:"Mass Effect", 
@@ -69,7 +69,7 @@ const games = [
     category:"all", 
     price:999,
     description:"Однопользовательская action/RPG, в которой игрок управляет капитаном Шепардом с видом от . . .",
-    image:"../images/topgames8.png"
+    image:"images/topgames8.png"
   },
   { 
     title:"Choice of Life", 
@@ -78,7 +78,7 @@ const games = [
     category:"all", 
     price:299,
     description:"Вы - простой матрос, попавший в шторм в первое же плавание. Корабль налетел на рифы, а вас вынесло на . . .",
-    image:"../images/topgames9.png"
+    image:"images/topgames9.png"
   },
   { 
     title:"Sky", 
@@ -87,7 +87,7 @@ const games = [
     category:"new", 
     price:0,
     description:"Потрясающее приключение в открытом мире ждёт вас! Исследуйте волшебные миры, возвращайте утраченный . . .",
-    image:"../images/topgames10.png"
+    image:"images/topgames10.png"
   },
   { 
     title:"Spider-Man", 
@@ -96,7 +96,7 @@ const games = [
     category:"bestsellers", 
     price:2999,
     description:"В оригинальной и захватывающей истории «MARVEL Человек-Паук. Обновленная версия» . . .",
-    image:"../images/spiderman.jpg"
+    image:"images/spiderman.jpg"
   },
   { 
     title:"The Last of Us", 
@@ -105,7 +105,7 @@ const games = [
     category:"bestsellers", 
     price:2799,
     description:"В мире, где цивилизация пала, а зараженные и заматерелые выжившие бесчинствуют, Джоэл, измученный герой . . .",
-    image:"../images/tlou.jpg"
+    image:"images/tlou.jpg"
   },
   { 
     title:"Soulstice", 
@@ -114,7 +114,7 @@ const games = [
     category:"new", 
     price:1499,
     description:"Равновесие в Святом Королевстве Кейдас нарушилось, когда из-за Завесы пришли дикие . . .",
-    image:"../images/soulstice.jpg"
+    image:"images/soulstice.jpg"
   },
   { 
     title:"Call of Duty", 
@@ -123,7 +123,7 @@ const games = [
     category:"all", 
     price:3199,
     description:"Самая ожидаемая игра 2009 года, сиквел к самому популярному экшену от первого лица за всю . . .",
-    image:"../images/callofduty.jpg"
+    image:"images/callofduty.jpg"
   },
   { 
     title:"Hollow Knight Silksong",
@@ -132,7 +132,7 @@ const games = [
     category:"new", 
     price:1599,
     description:"Станьте смертоносной охотницей Хорнет и . . .",
-    image:"../images/silksong.jpg"
+    image:"images/silksong.jpg"
   },
   { 
     title:"Doom: The Dark Ages",
@@ -141,7 +141,7 @@ const games = [
     category:"bestsellers", 
     price:3599,
     description:"Рвите врагов в клочья, ведь вы — настоящее супероружие . . .",
-    image:"../images/doom.jpg"
+    image:"images/doom.jpg"
   }
 ];
 
