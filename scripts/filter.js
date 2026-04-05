@@ -182,7 +182,7 @@ function render() {
         <img src="${game.image}" alt="${game.title}">
         <div class="game-info">
           <h4>
-            <a href="../games/${game.link}.html" class="game-link">
+            <a href="games/${game.link}.html" class="game-link">
               ${game.title}
             </a>
           </h4>
