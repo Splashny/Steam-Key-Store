@@ -87,13 +87,14 @@ body {
 }
 
 .dropdown-menu.active {
+    display: block !important;
     transform: scale(1);
     padding-top: 12px;
     padding-bottom: 12px;
 }
 
 .dropdown-menu a {
-    display: block !important;
+    display: block;
     padding: 12px 20px;
     color: #0C1C56;
     font-family: 'Gilroy-Bold';
